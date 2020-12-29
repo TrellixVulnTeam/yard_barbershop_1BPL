@@ -1,0 +1,20 @@
+// main: it should ONLY contain the imports for the above files. @import 'layout';
+@import 'components';
+@import 'layout';
+@import 'base';
+body {
+  background: #171c1c;
+  border: 10px solid #c5a769;
+  color: #4d5251;
+  .jumbotron {
+    background-color: #171c1c;
+    color: white;
+  }
+  .btn {
+    background-color: $color-3;
+
+    .btn:hover {
+      background-color: $color-3 !important;
+    }
+  }
+}
