@@ -1,11 +1,35 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background: #171c1c;
-  border: 10px solid #c5a769;
-  color: #4d5251; }
-  body .jumbotron {
-    background-color: #171c1c;
-    color: white; }
-  body .btn {
-    background-color: #c5a769; }
-    body .btn .btn:hover {
-      background-color: #c5a769 !important; }
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  background: url("../img/barber_1.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white; }
+
+img {
+  height: 600px;
+  width: 600px; }
+
+.jumbotron {
+  background: none; }
+  .jumbotron h1 {
+    color: white;
+    font: 900 15vmin/30vh cookie, cursive;
+    text-align: center;
+    filter: drop-shadow(0.05em 0.05em black);
+    mix-blend-mode: difference; }
+  .jumbotron p {
+    color: white;
+    font: 900 5vmin/10vh cookie, cursive;
+    text-align: center;
+    filter: drop-shadow(0.05em 0.05em black);
+    mix-blend-mode: difference; }
+
+img {
+  border: 2px solid #c5a769; }
